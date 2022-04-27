@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/main.min.css">
+  <!-- <link rel="stylesheet" href="./css/main.css"> -->
+  <title>Checkbox work</title>
+</head>
+<body>
+
+  <div class="container">
+    <h1 class="content__title">Qaysi sport turiga qiziqasiz?</h1>
+    <form class="content__list" action="https://echo.htmlacademy.ru/" method="POST" autocomplete="off">
+      <label class="content__item">
+        <input class="content__input visually-hidden" type="checkbox" name="sport_tennis">
+        <span class="content__input-controller"></span>
+        Stol tennisi
+      </label>
+      <label class="content__item">
+        <input class="content__input visually-hidden" type="checkbox" name="sport_basketbol">
+        <span class="content__input-controller"></span>
+        Basketbol
+      </label>
+      <label class="content__item">
+        <input class="content__input visually-hidden" type="checkbox" name="sport_voleybol">
+        <span class="content__input-controller"></span>
+        Volleybol
+      </label>
+      <label class="content__item">
+        <input class="content__input visually-hidden" type="checkbox" name="sport_hokkey" disabled checked>
+        <span class="content__input-controller"></span>
+        Hokkey
+      </label>
+
+      <button class="btn" type="submit">Send</button>
+    </form>
+  </div>
+
+</body>
+</html>
